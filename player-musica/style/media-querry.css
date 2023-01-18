@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+
+@media screen and  (max-width: 800px) {
+    #app {
+        display: grid;
+        grid-template-columns: min-content;
+        grid-template-areas: 
+        'A'
+        'B'
+        'C';
+         height: auto;
+         margin: 30px;
+    }
+}
