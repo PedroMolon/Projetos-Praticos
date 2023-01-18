@@ -23,7 +23,7 @@ body * {
     'A C';
     gap: 32px;
     place-content: center;
-    height: 100vh;
+    height: 97vh;
 }
 
 .info {
@@ -47,6 +47,7 @@ body * {
     background-color: rgb(17, 11, 57);
     text-align: center;
     border-radius: 10px;
+    box-shadow: 0px 0px 5px white;
 }
 
 #player-1 {
@@ -162,4 +163,23 @@ body * {
     width: 85px;
     height: 85px;
     border-radius: 6px;
+}
+
+footer {
+    width: 100%;
+    height: 3vh;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+}
+
+footer p a{
+    color: white;
+    text-decoration: none;
+    opacity: 80%;
+}
+
+footer p a:hover {
+    color: rgb(49, 45, 83);
+    text-decoration: overline;
 }
