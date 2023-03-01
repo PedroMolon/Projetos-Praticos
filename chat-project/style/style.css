@@ -1,0 +1,167 @@
+@charset "UTF-8";
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1A1924;
+    height: 100vh;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 72px;
+    gap: 30px;
+    color: white;
+}
+
+.perfil {
+    display: flex;
+    flex-direction: column;
+    min-width: 880px;
+    height: auto;
+    gap: 16px;
+}
+
+.person {
+    display: flex;
+    flex-direction: row;
+}
+
+.person img {
+    height: 48px;
+    width: 48px;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    gap: 4px;
+}
+
+.name h4 {
+    font-family: 'Roboto', sans-serif;
+    color: #E1E1E6;
+    font-size: 16px;
+}
+
+.online {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.online p {
+    color: #00B37E;
+    padding-left: 3px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.ellipse {
+    border: 1px solid #00B37E;
+    background-color: #00B37E;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    padding-right: 5px;
+}
+
+#close {
+    width: 20px;
+    height: 20px;
+}
+
+.hour {
+    margin: auto;
+}
+
+.hour p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.other {
+    min-width: 880px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.time p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.msg_other {
+    background-color: #633BBC;
+    padding: 14px;
+    gap: 10px;
+    border-radius: 0px 8px 8px 8px;
+}
+
+.msg_other p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.user {
+    min-width: 880px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.your_msg {
+    background-color: #07847E;
+    padding: 14px;
+    gap: 10px;
+    border-radius: 8px 8px 0px 8px;
+}
+
+.your_msg p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.msg {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #282843;
+    width: 880px;
+    padding: 14px 24px;
+    gap: 10px;
+    border-radius: 999px;
+}
+
+.msg input {
+    background-color: transparent;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #E1E1E6;
+    width: 798px;
+    height: 14px;
+}
+
+.msg input::placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: #E1E1E6;
+}
+
+.msg input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
